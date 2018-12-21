@@ -1,12 +1,3 @@
-// TBD remove TEST_ADD_LINE comments
-// <button class="test-add-line" type="button">Test add line (temp)</button>
-// IE 11 and up support
-
-
-
-// comment autobahn stuff
-// exception handling
-
 document.addEventListener("DOMContentLoaded", function (event) {
 	
 	var i;
