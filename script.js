@@ -1,13 +1,13 @@
 document.addEventListener("DOMContentLoaded", function (event) {
 	
 	var i;
-	
+
 	// websocket connection config
-	const WEBSOCKET_SERVER_URL = 'ws://localhost:9090/';
-	const WEBSOCKET_REALM_TO_CONNECT_TO = 'main_realm';
-	const WEBSOCKET_TOPIC_TO_SUBSCRIBE_TO = "main";
+	const WEBSOCKET_SERVER_URL = document.getElementById("server-url").innerHTML;
+	const WEBSOCKET_REALM_TO_CONNECT_TO = document.getElementById("realm").innerHTML;
+	const WEBSOCKET_TOPIC_TO_SUBSCRIBE_TO = document.getElementById("topic").innerHTML;
 	const WEBSOCKET_CLIENT_ROLE = "listener";
-	const WEBSOCKET_CLIENT_SIGNATURE = "Cd5JwzGnNz8h1ui8Rl70DZp4TEOyJbzR";
+	const WEBSOCKET_CLIENT_SIGNATURE = document.getElementById("signature").innerHTML;
 	const WEBSOCKET_AUTH_METHODS = ['regular'];
 	const WEBSOCKET_MAX_RETRIES = 0;
 	

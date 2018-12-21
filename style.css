@@ -48,3 +48,21 @@ body {
 	line-height: 140%;
 	padding-bottom: 4px;
 }
+#page .config {
+	padding-bottom: 52px;
+}
+#page .config .label {
+	padding-bottom: 4px;
+	font-weight: bold;
+}
+#page .config .field .data {
+	display: inline-block;
+	padding-top: 4px;
+	padding-bottom: 4px;
+	background-color: #eeeeee;
+	padding-left: 8px;
+	padding-right: 8px;
+}
+#page .config .field {
+	padding-bottom: 12px;
+}
