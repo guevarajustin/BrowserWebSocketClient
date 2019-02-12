@@ -6,7 +6,7 @@
 
 ## Example
 
-![](https://guevarajust.in/images/bwsp_example1.png "")
+![](https://guevarajust.in/wp-content/uploads/bwsp_example1.png "")
 
 ## Notes
 
